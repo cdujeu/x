@@ -435,7 +435,7 @@ func (m *Migrator) migrationTableName(ctx context.Context, con *pop.Connection) 
 
 func errIsTableNotFound(err error) bool {
 	return strings.HasPrefix(err.Error(), "no such table:") || // sqlite
-		strings.HasPrefix(err.Error(), "Error 1146:") || // MySQL
+		strings.HasPrefix(err.Error(), "Error 1146") || // MySQL
 		strings.Contains(err.Error(), "SQLSTATE 42P01") // PostgreSQL / CockroachDB
 }
 
