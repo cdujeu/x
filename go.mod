@@ -33,11 +33,11 @@ require (
 	github.com/goccy/go-yaml v1.9.5
 	github.com/gofrs/uuid v4.1.0+incompatible
 	github.com/gofrs/uuid/v3 v3.1.2
-	github.com/golang/glog v1.0.0 // indirect
 	github.com/golang/mock v1.6.0
 	github.com/google/go-jsonnet v0.17.0
-	github.com/google/uuid v1.3.0
+	github.com/google/uuid v1.5.0
 	github.com/gorilla/websocket v1.4.2
+	github.com/grpc-ecosystem/grpc-gateway/v2 v2.19.1 // indirect
 	github.com/hashicorp/go-cleanhttp v0.5.2 // indirect
 	github.com/hashicorp/go-hclog v0.12.0 // indirect
 	github.com/hashicorp/go-retryablehttp v0.7.0
@@ -72,7 +72,7 @@ require (
 	github.com/pkg/profile v1.6.0
 	github.com/pquerna/otp v1.3.0
 	github.com/prometheus/client_golang v1.11.0
-	github.com/prometheus/client_model v0.2.0
+	github.com/prometheus/client_model v0.4.0
 	github.com/prometheus/common v0.32.1
 	github.com/rs/cors v1.8.0
 	github.com/seatgeek/logrus-gelf-formatter v0.0.0-20210414080842-5b05eb8ff761
@@ -81,7 +81,7 @@ require (
 	github.com/spf13/cobra v1.4.0
 	github.com/spf13/pflag v1.0.5
 	github.com/square/go-jose/v3 v3.0.0-20200630053402-0a67ce9b0693
-	github.com/stretchr/testify v1.7.0
+	github.com/stretchr/testify v1.8.4
 	github.com/tidwall/gjson v1.14.0
 	github.com/tidwall/sjson v1.2.4
 	github.com/uber/jaeger-client-go v2.29.1+incompatible
@@ -90,18 +90,20 @@ require (
 	go.elastic.co/apm v1.14.0
 	go.elastic.co/apm/module/apmot v1.14.0
 	go.opentelemetry.io/contrib/instrumentation/net/http/httptrace/otelhttptrace v0.25.0
-	go.opentelemetry.io/otel v1.3.0
-	go.opentelemetry.io/otel/bridge/opentracing v1.2.0
-	go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracehttp v1.3.0
-	go.opentelemetry.io/otel/sdk v1.3.0
-	go.opentelemetry.io/proto/otlp v0.11.0
-	golang.org/x/crypto v0.0.0-20210921155107-089bfa567519
-	golang.org/x/mod v0.5.1
-	golang.org/x/sync v0.0.0-20210220032951-036812b2e83c
-	golang.org/x/term v0.0.0-20210927222741-03fcf44c2211
-	gonum.org/v1/plot v0.10.0
-	google.golang.org/grpc v1.43.0
-	google.golang.org/protobuf v1.27.1
+	go.opentelemetry.io/otel v1.22.0
+	go.opentelemetry.io/otel/bridge/opentracing v1.22.0
+	go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracehttp v1.22.0
+	go.opentelemetry.io/otel/sdk v1.22.0
+	go.opentelemetry.io/proto/otlp v1.1.0
+	golang.org/x/crypto v0.18.0
+	golang.org/x/mod v0.11.0
+	golang.org/x/sync v0.6.0
+	golang.org/x/term v0.16.0
+	gonum.org/v1/plot v0.10.1
+	google.golang.org/genproto/googleapis/api v0.0.0-20240205150955-31a09d347014 // indirect
+	google.golang.org/genproto/googleapis/rpc v0.0.0-20240205150955-31a09d347014 // indirect
+	google.golang.org/grpc v1.61.0
+	google.golang.org/protobuf v1.32.0
 	gopkg.in/DataDog/dd-trace-go.v1 v1.33.0
 	gopkg.in/square/go-jose.v2 v2.6.0
 )
