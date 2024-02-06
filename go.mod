@@ -16,12 +16,12 @@ require (
 	github.com/bradleyjkemp/cupaloy/v2 v2.6.0
 	github.com/cockroachdb/cockroach-go/v2 v2.2.7
 	github.com/containerd/containerd v1.5.7 // indirect
-	github.com/dgraph-io/ristretto v0.1.0
+	github.com/dgraph-io/ristretto v0.1.1
 	github.com/docker/distribution v2.8.1+incompatible // indirect
 	github.com/docker/docker v20.10.9+incompatible
 	github.com/evanphx/json-patch v4.11.0+incompatible
 	github.com/fatih/structs v1.1.0
-	github.com/fsnotify/fsnotify v1.5.1
+	github.com/fsnotify/fsnotify v1.7.0
 	github.com/ghodss/yaml v1.0.0
 	github.com/go-bindata/go-bindata v3.1.2+incompatible
 	github.com/go-openapi/errors v0.20.0 // indirect
@@ -33,10 +33,11 @@ require (
 	github.com/goccy/go-yaml v1.9.5
 	github.com/gofrs/uuid v4.1.0+incompatible
 	github.com/gofrs/uuid/v3 v3.1.2
+	github.com/golang/glog v1.2.0 // indirect
 	github.com/golang/mock v1.6.0
 	github.com/google/go-jsonnet v0.17.0
-	github.com/google/uuid v1.5.0
-	github.com/gorilla/websocket v1.4.2
+	github.com/google/uuid v1.6.0
+	github.com/gorilla/websocket v1.5.1
 	github.com/grpc-ecosystem/grpc-gateway/v2 v2.19.1 // indirect
 	github.com/hashicorp/go-cleanhttp v0.5.2 // indirect
 	github.com/hashicorp/go-hclog v0.12.0 // indirect
@@ -46,13 +47,15 @@ require (
 	github.com/instana/go-sensor v1.34.0
 	github.com/jackc/pgconn v1.10.1
 	github.com/jackc/pgx/v4 v4.13.0
-	github.com/jandelgado/gcov2lcov v1.0.5
+	github.com/jandelgado/gcov2lcov v1.0.6
 	github.com/jmoiron/sqlx v1.3.4
 	github.com/julienschmidt/httprouter v1.3.0
 	github.com/knadh/koanf v1.4.0
 	github.com/lib/pq v1.10.4
+	github.com/magiconair/properties v1.8.7 // indirect
 	github.com/markbates/pkger v0.17.1
 	github.com/mattn/go-sqlite3 v2.0.3+incompatible
+	github.com/mitchellh/mapstructure v1.5.0 // indirect
 	github.com/mohae/deepcopy v0.0.0-20170929034955-c48cc78d4826
 	github.com/morikuni/aec v1.0.0 // indirect
 	github.com/opentracing/opentracing-go v1.2.0
@@ -61,12 +64,12 @@ require (
 	github.com/ory/analytics-go/v4 v4.0.3
 	github.com/ory/client-go v0.0.1-alpha.138
 	github.com/ory/dockertest/v3 v3.8.1
-	github.com/ory/go-acc v0.2.6
+	github.com/ory/go-acc v0.2.8
 	github.com/ory/graceful v0.1.1
 	github.com/ory/herodot v0.9.13
 	github.com/ory/jsonschema/v3 v3.0.7
 	github.com/pborman/uuid v1.2.1
-	github.com/pelletier/go-toml v1.9.4
+	github.com/pelletier/go-toml v1.9.5
 	github.com/philhofer/fwd v1.1.1 // indirect
 	github.com/pkg/errors v0.9.1
 	github.com/pkg/profile v1.6.0
@@ -77,11 +80,13 @@ require (
 	github.com/rs/cors v1.8.0
 	github.com/seatgeek/logrus-gelf-formatter v0.0.0-20210414080842-5b05eb8ff761
 	github.com/sirupsen/logrus v1.8.1
-	github.com/spf13/cast v1.4.1
-	github.com/spf13/cobra v1.4.0
+	github.com/spf13/afero v1.11.0 // indirect
+	github.com/spf13/cast v1.6.0
+	github.com/spf13/cobra v1.8.0
 	github.com/spf13/pflag v1.0.5
 	github.com/square/go-jose/v3 v3.0.0-20200630053402-0a67ce9b0693
 	github.com/stretchr/testify v1.8.4
+	github.com/subosito/gotenv v1.6.0 // indirect
 	github.com/tidwall/gjson v1.14.0
 	github.com/tidwall/sjson v1.2.4
 	github.com/uber/jaeger-client-go v2.29.1+incompatible
@@ -96,15 +101,17 @@ require (
 	go.opentelemetry.io/otel/sdk v1.22.0
 	go.opentelemetry.io/proto/otlp v1.1.0
 	golang.org/x/crypto v0.18.0
-	golang.org/x/mod v0.11.0
+	golang.org/x/mod v0.14.0
 	golang.org/x/sync v0.6.0
 	golang.org/x/term v0.16.0
+	golang.org/x/tools v0.17.0 // indirect
 	gonum.org/v1/plot v0.10.1
 	google.golang.org/genproto/googleapis/api v0.0.0-20240205150955-31a09d347014 // indirect
 	google.golang.org/genproto/googleapis/rpc v0.0.0-20240205150955-31a09d347014 // indirect
 	google.golang.org/grpc v1.61.0
 	google.golang.org/protobuf v1.32.0
 	gopkg.in/DataDog/dd-trace-go.v1 v1.33.0
+	gopkg.in/ini.v1 v1.67.0 // indirect
 	gopkg.in/square/go-jose.v2 v2.6.0
 )
 
